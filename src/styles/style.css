@@ -1,0 +1,144 @@
+@import "searchbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header {
+    background-position: 10% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    padding-top: 250px;
+    padding-bottom: 225px;
+    background-image: url(https://mobirise.com/html-templates/ecommerce/assets/images/katlyn-giberson-185277-1200x900.jpg);
+}
+
+.heading #title {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading #sub-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading p{
+    font-size: 20px;
+}
+
+.heading .btn-danger {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 5px 50px;
+    border-radius: 8px;
+}
+
+/* Features */
+main {
+    width: auto;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+main .features {
+    padding: 30px 0;
+    margin-bottom: 50px;
+    background-position: 10% 50%;
+    background-image: url(https://mobirise.com/bootstrap-template/bootstrap-basic-template/assets/images/clem-onojeghuo-143620-unsplash-2000x1317.jpg); 
+    border-radius: 8px;
+}
+
+main #title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main #sub-title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+meal-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+/* Footer */
+footer {
+    padding-top: 75px;
+    padding-bottom: 45px;
+    background-color: #000000;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer #footer-title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+footer #footer-sub-title{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+footer #list-sub-title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+footer #recent {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+footer .footer-information {
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer #information-title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+}
